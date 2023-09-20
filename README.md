@@ -1,4 +1,4 @@
-Micaela Pina                   @gmail.com
+Micaela Pina  @gmail.com
 Leandro Molina ileandromolina97@gmail.com
 
 Tematica del TPE : Pagina de catalogos de vinilos/discos.
