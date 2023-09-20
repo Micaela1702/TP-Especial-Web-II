@@ -1,4 +1,4 @@
-Micaela Pina  @gmail.com
+Micaela Pina  mpina@alumnos.exa.unicen.edu.ar
 Leandro Molina ileandromolina97@gmail.com
 
 Tematica del TPE : Pagina de catalogos de vinilos/discos.
