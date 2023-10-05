@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "templates_c",
+			"path": "../../TPE-WEB-2-master/templates_c"
+		},
+		{
+			"name": "libs",
+			"path": "../../TPE-WEB-2-master/libs"
+		},
+		{
+			"name": "TPE-WEB2",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
