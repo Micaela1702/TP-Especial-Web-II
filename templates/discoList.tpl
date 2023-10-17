@@ -18,14 +18,14 @@
   <tbody>
     {foreach from=$discos item=$disco}
         <tr>
-        <th scope="row"><a href="ver-disco/{$disco->id_disco}" class="mylists" >{$disco->nombre}</a></th>
+        <th scope="row"><a href="info-disco/{$disco->id_disco}" class="mylists" >{$disco->nombre}</a></th>
         <td>{$disco->artista}</td>
         <td>{$disco->sello_discografico}</td>
         <td>{$disco->anio_lanzamiento}</td>
         <td>{$disco->genero}</td>
         {if !isset($smarty.session.USER_ID)} 
           {else}
-          <td><a class="btn btn-outline-danger" href="borrar-disco/{$disco->id_disco}">Borrar</a> </td>
+          <td><a class="btn btn-outline-danger" href="eliminar-discos/{$disco->id_disco}">Borrar</a> </td>
           <td><a class="btn btn-outline-success" href="editar-disco-form/{$disco->id_disco}">Editar</a></td>
         {/if}
         
@@ -33,6 +33,11 @@
     {/foreach}
   </tbody>
 </table>
+
+{if !isset ($smarty.session.USER_ID)}
+  {else}
+  {include file="insertarDisco.tpl"}
+{/if}
 
 {include file="footer.tpl"}
 

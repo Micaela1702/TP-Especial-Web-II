@@ -1,0 +1,36 @@
+.formulario{
+    margin: 10%;
+    
+}
+form.form-alta{
+    background-color: rgba(12, 135, 28, 0.227);
+    padding: 2%;
+    border-radius: 2px;
+    margin: 15%;
+    
+}
+h2{
+    color: rgb(80, 111, 113);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5%;
+}
+a.mylists{
+    color: rgba(12, 135, 28);
+    text-decoration: none;
+    font-weight: bold;
+}
+.card-body{
+    margin: 10%;
+}
+input, select{
+    border-radius: 5px;
+    border-color: rgb(19, 145, 44);
+    border-width:2px;
+}
+body{
+    background-image: url(../img/fondo.png);
+}
+
+.error{
+    background-color: red;
+}

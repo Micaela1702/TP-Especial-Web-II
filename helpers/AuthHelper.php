@@ -16,7 +16,7 @@ class AuthHelper
     }
 
 
-    public function getUser(){
+    public function getUsuario(){
         return $_SESSION;
     }
 }
